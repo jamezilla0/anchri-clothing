@@ -1,0 +1,23 @@
+{
+  "name": "n",
+  "version": "0.0.0",
+  "authors": [
+    "James Bernard <jamezilla0@gmail.com>"
+  ],
+  "description": "Anchri Clothing is a bi-product of two young men raised in the Empire State. Anchri Clothing was conceived in order to incorporate their thoughts, and ideas into modern day fashion. A fun, comfortable, and convenient clothing line for the modern person in a society run by simple ideas. The idea of this clothing brand is not to mimic any other brand, but to express what we create in our heads.",
+  "keywords": [
+    "Clothing"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.5",
+    "font-awesome": "~4.4.0"
+  }
+}
