@@ -2,15 +2,13 @@
 
 @section('title', 'Home')
 
+@section('body-class', 'landing-page')
+
 @section('content')
-    <div class="container">
-        <div class="content">
-            <div class="title">
-                Anchri Clothing
-            </div>
-            <div class="well">
-                 Coming Soon!
-            </div>
-        </div>
+    <div class="title fancy">
+        Anchri Clothing
+    </div>
+    <div class="well">
+         Coming Soon!
     </div>
 @stop

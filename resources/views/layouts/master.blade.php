@@ -19,9 +19,16 @@
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body>
+	<body class="body-background @yield('body-class')">
 
-		@yield('content')
+		<!-- This cover is mainly to place a cover under main content but above background -->
+		<div class="glass cover"></div>
+
+	    <div class="container">
+	        <div class="content">
+				@yield('content')
+	        </div>
+	    </div>
 
 		<!-- jQuery -->
 		<script src="//code.jquery.com/jquery.js"></script>
